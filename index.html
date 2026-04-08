@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DANIEL CASTRO | FULL STACK DEVELOPER</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <meta name="description"
+    content="Ingeniero Frontend Junior con enfoque en negocio. React, Next.js y Arquitectura UI. Bogotá/Chía.">
+  <meta name="author" content="Daniel Castro">
+
+  <!-- META TAGS PARA LINKEDIN/WHATSAPP (SEO VISUAL) -->
+  <meta property="og:title" content="DANIEL CASTRO | FULL STACK DEVELOPER">
+  <meta property="og:description"
+    content="Interfaces críticas y estética de alto impacto. Disponible para contratación.">
+  <meta property="og:image" content="https://placehold.co/1200x630/050505/D00000?text=SYSTEM_ONLINE">
+  <meta property="og:type" content="website">
+
+  <!-- FUENTES: Oswald (Estructura), JetBrains Mono (Datos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;500;700;800&family=Oswald:wght@300;400;600&display=swap"
+    rel="stylesheet">
+
+  <!-- ENLACE AL ARCHIVO CSS EXTERNO -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- CUSTOM CURSOR -->
+  <div id="cursor">
+    <div class="crosshair">
+      <div class="ch-c"></div>
+      <div class="ch-tl"></div>
+      <div class="ch-tr"></div>
+      <div class="ch-bl"></div>
+      <div class="ch-br"></div>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-content">
+      <div class="flex-btwn" style="gap: 20px;">
+        <div class="hex-deco active"></div>
+        <div class="mono-xs">SYSTEM: <span class="highlight">ONLINE</span></div>
+        <div class="mono-xs">LOC: <span style="color: var(--text-main);">BOG_COL</span></div>
+      </div>
+
+      <nav class="nav-items">
+        <a href="#projects" class="nav-link interactable">PROYECTOS</a>
+        <a href="#skills" class="nav-link interactable">TECNOLOGÍAS</a>
+        <a href="#contact" class="nav-link interactable">CONTACTO</a>
+      </nav>
+
+      <button id="themeToggle" class="interactable mono-xs"
+        style="background:transparent; border:1px solid var(--text-dim); padding: 4px 8px; color: var(--text-dim);">
+        [ INVERT_VISUALS ]
+      </button>
+    </div>
+  </header>
+
+  <!-- MONITOR PREVIEW -->
+  <div class="monitor-wrap" id="monitor">
+    <div class="monitor-header">VISUAL_FEED__LIVE</div>
+    <img src="" id="monitorImg" class="monitor-img" alt="Project Preview" loading="lazy">
+    <div class="monitor-scanlines"></div>
+  </div>
+
+  <main class="container">
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-grid">
+
+        <!-- LEFT: TEXT DATA -->
+        <div>
+          <div class="mono-xs highlight" style="margin-bottom: 20px;">/// DANIEL CASTRO: PERFIL_FULL STACK </div>
+          <h1 class="d-mega">
+            FULL STACK<br>
+            <span style="color: transparent; -webkit-text-stroke: 1px var(--text-main);">DEVELOPER</span>
+          </h1>
+
+          <div style="margin-top: 40px; max-width: 650px; border-left: 1px solid var(--text-dim); padding-left: 24px;">
+            <p class="mono-sm" style="font-size: 1.1rem; margin-bottom: 30px; color: var(--text-main);">
+
+
+              <strong>INGENIERÍA DE PRODUCTO ORIENTADA AL VALOR DE NEGOCIO: </strong>Transformo modelos de negocio en
+              activos
+              digitales de alto rendimiento. Fusiono desarrollo y
+              visión estratégica para convertir desafíos en valor medible.
+              <br><br>
+              Transformo modelos de negocio en activos digitales de alto rendimiento. Fusiono desarrollo y visión
+              estratégica para convertir desafíos en valor medible.
+            </p>
+
+            <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+              <a href="https://github.com/DanielcoderIA?tab=repositories" class="btn-mech interactable">[ VER PROYECTOS
+                ]</a>
+              <a href="Daniel_Castro_Pedraza_CV.pdf" download="CV_Daniel_Castro.pdf" class="btn-mech interactable"
+                style="border-style: dashed; opacity: 0.8;">[DOWNLOAD_CV.PDF ]</a>
+            </div>
+          </div>
+
+          <!-- SOCIAL GRID (HERO) -->
+          <div class="social-grid">
+            <a href="https://www.linkedin.com/in/daniel-castro-pedraza/" target="_blank"
+              class="social-chip interactable">
+              <span class="sc-icon">⚡</span> LINKEDIN
+            </a>
+            <a href="https://github.com/DanielcoderIA" target="_blank" class="social-chip interactable">
+              <span class="sc-icon">⌘</span> GITHUB
+            </a>
+            <a href="mailto:danicoder2001@gmail.com" class="social-chip interactable">
+              <span class="sc-icon">@</span> EMAIL
+            </a>
+          </div>
+        </div>
+
+        <!-- RIGHT: PILOT CARD -->
+        <div class="pilot-card interactable">
+          <div class="pilot-img-container">
+            <img src="Gemini_Generated_Image_nantr0nantr0nant.png" alt="Daniel Castro">
+            <div class="pilot-overlay"></div>
+            <div class="pilot-scan"></div>
+
+            <!-- Brackets -->
+            <div
+              style="position:absolute; top:5px; left:5px; width:10px; height:10px; border-top:2px solid var(--accent); border-left:2px solid var(--accent);">
+            </div>
+            <div
+              style="position:absolute; bottom:5px; right:5px; width:10px; height:10px; border-bottom:2px solid var(--accent); border-right:2px solid var(--accent);">
+            </div>
+          </div>
+
+          <div class="pilot-data">
+            <div class="p-stat">ID_CODE<span class="p-val">ABR_2026</span></div>
+            <div class="p-stat">SYNC<span class="p-val highlight">100%</span></div>
+            <div class="p-stat">STATUS<span class="p-val">OPEN_TO_WORK</span></div>
+            <div class="p-stat">LOC<span class="p-val">BOGOTÁ</span></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" style="padding: 100px 0;">
+      <div class="d-section">
+        <div class="hex-deco active"></div>
+        <h2>DATA_LOGS [ WORK ]</h2>
+      </div>
+      <p class="mono-sm" style="margin-bottom: 40px;">> Proyectos destacados con enfoque en rendimiento y conversión.
+      </p>
+
+      <div id="projectList">
+
+        <!-- FILE 01 -->
+        <a href="https://vision-360-2oir.vercel.app/login" target="_blank" rel="noopener noreferrer"
+          class="project-row interactable" data-img="dashboard.png">
+          <div class="p-index">01</div>
+          <div>
+            <h3 class="p-title">Visión 360 - FINTECH DASHBOARD</h3>
+            <p class="p-desc-biz">
+              Panel financiero en tiempo real para la toma de decisiones estratégicas.
+              <span style="color: var(--text-main);">Logro:</span> Reducción del 40% en tiempo de carga y visualización
+              fluida de +10k puntos de datos críticos.
+            </p>
+            <div class="p-meta">
+              <span class="p-tag">NEXT.JS 14</span>
+              <span class="p-tag">SUPABASE</span>
+              <span class="p-tag">TAILWIND CSS</span>
+            </div>
+          </div>
+          <div class="p-link-col flex-btwn">
+            <span class="mono-xs highlight">[ VIEW LIVE DEMO ]</span>
+          </div>
+        </a>
+        <!-- FILE 02 -->
+        <a href="https://freeflow-crm-smvr.vercel.app/login" target="_blank" rel="noopener noreferrer"
+          class="project-row interactable" data-img="free.png">
+          <div class="p-index">02</div>
+          <div>
+            <h3 class="p-title">FREEFLOW - CRM & FINANCE HUB</h3>
+            <p class="p-desc-biz">
+              Gestión financiera integral para agencias y freelancers.
+              <span style="color: var(--text-main);">Logro:</span> Centralización del ciclo de vida del cliente con
+              automatización de facturación vía Stripe y monitoreo de KPIs en tiempo real.
+            </p>
+            <div class="p-meta">
+              <span class="p-tag">NEXT.JS</span>
+              <span class="p-tag">STRIPE</span>
+              <span class="p-tag">TAILWIND</span>
+            </div>
+          </div>
+          <div class="p-link-col flex-btwn">
+            <span class="mono-xs highlight">[ VIEW DEMO ]</span>
+          </div>
+        </a>
+
+        <!-- FILE 03 -->
+        <a href="https://documente.vercel.app/" target="_blank" rel="noopener noreferrer"
+          class="project-row interactable" data-img="documente.png">
+          <div class="p-index">03</div>
+          <div>
+            <h3 class="p-title">DOCUMENTE - IA DOCUMENTAL</h3>
+            <p class="p-desc-biz">
+              App de análisis documental con IA para el mercado colombiano.
+              <span style="color: var(--text-main);">Logro:</span> Procesamiento RAG de PDFs con búsqueda vectorial
+              semántica (pgvector), permitiendo consultas en lenguaje natural sobre múltiples documentos
+              simultáneamente.
+            </p>
+            <div class="p-meta">
+              <span class="p-tag">NEXT.JS 15</span>
+              <span class="p-tag">SUPABASE</span>
+              <span class="p-tag">CLERK</span>
+              <span class="p-tag">LANGCHAIN</span>
+            </div>
+          </div>
+          <div class="p-link-col flex-btwn">
+            <span class="mono-xs highlight">[ VIEW LIVE DEMO ]</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" style="padding: 60px 0;">
+      <div class="d-section">
+        <div class="hex-deco active"></div>
+        <h2>SYSTEM_MODULES [ STACK ]</h2>
+      </div>
+
+      <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1px; background: var(--grid-line); border: 1px solid var(--grid-line);">
+
+        <!-- MODULE 1 -->
+        <div class="interactable" style="background: var(--bg-void); padding: 30px; transition: background 0.2s;"
+          onmouseover="this.style.background='var(--bg-panel)'" onmouseout="this.style.background='var(--bg-void)'">
+          <div class="mono-xs highlight" style="margin-bottom: 10px;">CORE_01</div>
+          <h3>LENGUAJES Y FRAMEWORKS</h3>
+          <p class="mono-sm" style="margin-top: 10px; font-size: 0.85rem;">
+            Arquitectura Reactiva y Tipada. Desarrollo optimizado con Next.js, React y
+            TypeScript, creando interfaces robustas y libres de errores.-> React.js, Next.js, TypeScript, JavaScript
+            (ES6+), HTML5/CSS3.
+          </p>
+        </div>
+
+        <!-- MODULE 2 -->
+        <div class="interactable" style="background: var(--bg-void); padding: 30px; transition: background 0.2s;"
+          onmouseover="this.style.background='var(--bg-panel)'" onmouseout="this.style.background='var(--bg-void)'">
+          <div class="mono-xs highlight" style="margin-bottom: 10px;">CORE_02</div>
+          <h3> DISEÑO Y ESTILIZACIÓN</h3>
+          <p class="mono-sm" style="margin-top: 10px; font-size: 0.85rem;">
+            Sistemas de Diseño Ágiles. Implementación de design tokens (Tailwind CSS) para
+            estilización atómica.-> Tailwind CSS, CSS Modules, Diseño Responsive.
+
+          </p>
+        </div>
+
+        <!-- MODULE 3 -->
+        <div class="interactable" style="background: var(--bg-void); padding: 30px; transition: background 0.2s;"
+          onmouseover="this.style.background='var(--bg-panel)'" onmouseout="this.style.background='var(--bg-void)'">
+          <div class="mono-xs highlight" style="margin-bottom: 10px;">CORE_03</div>
+          <h3>INFRAESTRUCTURA Y DEV-OPS</h3>
+          <p class="mono-sm" style="margin-top: 10px; font-size: 0.85rem;">
+            Ciclo de Vida del Producto. Gestión de datos (Supabase) y deployment continuo para garantizar la calidad en
+            Vercel.-> Git / GitHub, Vercel, PostgreSQL, Supabase.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" style="padding-bottom: 100px;">
+      <div class="d-section">
+        <div class="hex-deco active"></div>
+        <h2>COMM_LINK [ HANDSHAKE ]</h2>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px;">
+        <div>
+
+          <p class="mono-sm" style="margin-top: 20px;">
+            Estoy listo para unirme a un equipo de alto rendimiento. Si buscas un desarrollador que entienda el
+            equilibrio entre código limpio y necesidades de negocio, hablemos.
+          </p>
+
+
+          <div style="margin-top: 40px;">
+            <div class="mono-xs" style="margin-bottom: 10px;">DIRECT CHANNELS:</div>
+            <div class="social-grid">
+              <a href="mailto:daniel@email.com" class="social-chip interactable"
+                style="background: var(--accent); border-color: var(--accent); color: white;">
+                <span class="sc-icon">✉</span> ENVIAR CORREO
+              </a>
+              <a href="https://www.linkedin.com/in/daniel-castro-pedraza/" target="_blank"
+                class="social-chip interactable">
+                LINKEDIN
+              </a>
+              <a href="https://github.com/DanielcoderIA" target="_blank" class="social-chip interactable">
+                GITHUB
+              </a>
+              <a href="https://wa.me/3115184218" target="_blank" class="social-chip interactable">
+                WHATSAPP
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- FORMULARIO FUNCIONAL  -->
+        <form action="https://formsubmit.co/danicoder2001@gmail.com" method="POST" class="form-terminal">
+
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+
+          <div class="form-group">
+            <label class="form-label">IDENTIFICATION [ NAME ]</label>
+            <input type="text" name="name" class="form-input interactable" placeholder="Tu Nombre / Empresa" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">CONTACT [ EMAIL ]</label>
+            <input type="email" name="email" class="form-input interactable" placeholder="correo@ejemplo.com" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">DATA_PACKET [ MESSAGE ]</label>
+            <textarea name="message" class="form-input interactable" rows="3"
+              placeholder="Detalles del proyecto o vacante..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-mech interactable" style="width: 100%;">
+            [ TRANSMIT_DATA ]
+          </button>
+        </form>
+
+        <!-- FOOTER -->
+        <footer style="border-top: 1px solid var(--grid-line); padding: 40px 0; margin-top: 40px;">
+          <div class="flex-btwn">
+            <div class="mono-xs">
+              SYSTEM_VER_14.0 // FINAL_BUILD<br>
+              © 2026 DANIEL CASTRO
+            </div>
+            <div class="flex-btwn" style="gap: 20px;">
+              <div class="hex-deco"></div>
+              <div class="hex-deco active"></div>
+              <div class="hex-deco"></div>
+            </div>
+          </div>
+        </footer>
+
+  </main>
+
+  <!-- ENLACE AL ARCHIVO JAVASCRIPT EXTERNO con 'defer' -->
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>
