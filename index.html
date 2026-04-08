@@ -56,8 +56,7 @@
         <a href="#contact" class="nav-link interactable">CONTACTO</a>
       </nav>
 
-      <button id="themeToggle" class="interactable mono-xs"
-        style="background:transparent; border:1px solid var(--text-dim); padding: 4px 8px; color: var(--text-dim);">
+      <button id="themeToggle" class="theme-toggle interactable mono-xs">
         [ INVERT_VISUALS ]
       </button>
     </div>
@@ -66,6 +65,7 @@
   <!-- MONITOR PREVIEW -->
   <div class="monitor-wrap" id="monitor">
     <div class="monitor-header">VISUAL_FEED__LIVE</div>
+    <button class="monitor-close" id="monitorClose">[ CLOSE_X ]</button>
     <img src="" id="monitorImg" class="monitor-img" alt="Project Preview" loading="lazy">
     <div class="monitor-scanlines"></div>
   </div>
@@ -88,13 +88,12 @@
             <p class="mono-sm" style="font-size: 1.1rem; margin-bottom: 30px; color: var(--text-main);">
 
 
-              <strong>INGENIERÍA DE PRODUCTO ORIENTADA AL VALOR DE NEGOCIO: </strong>Transformo modelos de negocio en
-              activos
-              digitales de alto rendimiento. Fusiono desarrollo y
-              visión estratégica para convertir desafíos en valor medible.
+              <strong>INGENIERÍA DE PRODUCTO ORIENTADA AL VALOR DE NEGOCIO: </strong>
+              Transformo modelos de negocio en activos digitales de alto impacto. Fusiono estrategia comercial con un
+              stack de Next.js + IA para eliminar fricciones operativas y maximizar la conversión.
+              <strong>Diseño de precisión. Ejecución técnica. Retorno medible.</strong>
               <br><br>
-              Transformo modelos de negocio en activos digitales de alto rendimiento. Fusiono desarrollo y visión
-              estratégica para convertir desafíos en valor medible.
+
             </p>
 
             <div style="display: flex; gap: 16px; flex-wrap: wrap;">
@@ -319,7 +318,7 @@
           <input type="hidden" name="_captcha" value="false">
           <input type="hidden" name="_template" value="table">
 
-          <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+          <input type="hidden" name="_next" value="https://portafolio-pi-fawn-16.vercel.app/">
 
           <div class="form-group">
             <label class="form-label">IDENTIFICATION [ NAME ]</label>
@@ -342,20 +341,24 @@
           </button>
         </form>
 
-        <!-- FOOTER -->
-        <footer style="border-top: 1px solid var(--grid-line); padding: 40px 0; margin-top: 40px;">
-          <div class="flex-btwn">
-            <div class="mono-xs">
-              SYSTEM_VER_14.0 // FINAL_BUILD<br>
-              © 2026 DANIEL CASTRO
-            </div>
-            <div class="flex-btwn" style="gap: 20px;">
-              <div class="hex-deco"></div>
-              <div class="hex-deco active"></div>
-              <div class="hex-deco"></div>
-            </div>
-          </div>
-        </footer>
+      </div>
+    </section>
+    <!-- END CONTACT -->
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-inner flex-btwn">
+        <div class="mono-xs footer-copy">
+          SYSTEM_VER_14.0 // FINAL_BUILD<br>
+          &copy; 2026 DANIEL CASTRO
+        </div>
+        <div class="footer-hexagons">
+          <div class="hex-deco"></div>
+          <div class="hex-deco active"></div>
+          <div class="hex-deco"></div>
+        </div>
+      </div>
+    </footer>
 
   </main>
 
